@@ -1,8 +1,8 @@
 # Portifólio Power BI 📊
 
-Este projeto contém projetos de dashboards em Power BI que fiz para análise e apresentação de dados de empresas reais. Cada projeto contém bases diferentes e tratamentos variados, fazendo uso de SQL, Python, Excel ou Google Sheets.
+Este projeto contém projetos de dashboards em Power BI que fiz para análise e apresentação de dados de empresas reais. Cada projeto contém bases diferentes e tratamentos variados, fazendo uso de Google Colab, Jupyter Notebook, Excel ou Google Sheets.
 
-Palavras-chave: Power BI; dashboard; SQL; Excel; Google Sheets; Python; análise
+Palavras-chave: Power BI; dashboard; Excel; Google Sheets; Python; análise
 
 ### Dashboard Monthly Sales
 - [Pasta do projeto](/monthly_sales/)
@@ -34,10 +34,6 @@ Palavras-chave: Power BI; dashboard; SQL; Excel; Google Sheets; Python; análise
 - **Google Colab**: Usado para escrever notebooks de Python.
 - **Excel**: Usado para leitura inicial de tabelas.
 - **Google Sheets**: Usado para leitura inicial de tabelas.
-
-### Dashboard Vendas de Grãos
-![Gif de funcionamento do Dashboard Vendas de Grãos](https://i.imgur.com/Zo2V9Qf.gif)
-
 
 ## Arquivos do projeto
 

@@ -6,21 +6,21 @@ Palavras-chave: Power BI; dashboard; Excel; Google Sheets; Python; análise
 
 ### Dashboard Monthly Sales
 - [Pasta do projeto](/monthly_sales/)
-- [Arquivo da dashboard](/monthly_sales/monthly_sales.pbix)
+- [Arquivo da dashboard](/monthly_sales/monthly_sales_dashboard.pbix)
 
 ![Gif de funcionando do Dashboard Monthly Sales](/monthly_sales/monthly_sales_gif.gif)
 <br><br>
 
 ### Dashboard Vendas de Grãos
 - [Pasta do projeto](/vendas_de_graos/)
-- [Arquivo da dashboard](/vendas_de_graos/venda_de_graos.pbix)
+- [Arquivo da dashboard](/vendas_de_graos/venda_de_graos_dashboard.pbix)
 
 ![Gif de funcionando do Dashboard Vendas de Grãos](/vendas_de_graos/venda_de_graos_gif.gif)
 <br><br>
 
 ### Dashboard Vendas Transacionais
 - [Pasta do projeto](/vendas_transacionais/)
-- [Arquivo da dashboard](/vendas_transacionais/vendas_transacionais.pbix)
+- [Arquivo da dashboard](/vendas_transacionais/vendas_transacionais_dashboard.pbix)
 
 ![Gif de funcionando do Dashboard Vendas Transacionais](/vendas_transacionais/vendas_transacionais_gif.gif)
 <br><br>
@@ -48,7 +48,7 @@ Palavras-chave: Power BI; dashboard; Excel; Google Sheets; Python; análise
 1. [Normatização de Dados](/monthly_sales/notebooks/normatizacao_dados.ipynb) - Notebook de Python para normatização das bases do projeto
 1. [Print da dashboard](/monthly_sales/monthly_sales_print.jpg) - Print em PDF da dashboard do projeto
 1. [GIF da dashboard](/monthly_sales/monthly_sales_gif.gif) - GIF da dashboard do projeto demonstrando suas interações
-1. [Monthly Sales](/monthly_sales/monthly_sales.pbix) - Dashboard produzida ao final do projeto
+1. [Monthly Sales](/monthly_sales/monthly_sales_dashboard.pbix) - Dashboard produzida ao final do projeto
 <br> <br>
 
     **Venda de Grãos**
@@ -56,7 +56,7 @@ Palavras-chave: Power BI; dashboard; Excel; Google Sheets; Python; análise
 1. [Base compras](/vendas_de_graos/data/raw/compras.csv) - Base de compras em formato csv
 1. [Print da dashboard](/vendas_de_graos/vendas_de_graos_print.pdf) - Print em PDF da dashboard do projeto
 1. [GIF da dashboard](/vendas_de_graos/vendas_de_graos_gif.gif) - GIF da dashboard do projeto demonstrando suas interações
-1. [Venda de Grãos](/vendas_de_graos/vendas_de_graos.pbix) - Dashboard produzida ao final do projeto
+1. [Venda de Grãos](/vendas_de_graos/vendas_de_graos_dashboard.pbix) - Dashboard produzida ao final do projeto
 <br> <br>
 
     **Vendas Transacionais**
@@ -72,7 +72,7 @@ Palavras-chave: Power BI; dashboard; Excel; Google Sheets; Python; análise
 1. [Etapas do projeto](/vendas_transacionais/vendas_transacionais_etapas.pdf) - Explicação das etapas do projeto em PDF
 1. [Print da dashboard](/vendas_transacionais/vendas_transacionais_print.pdf) - Print em PDF da dashboard do projeto
 1. [GIF da dashboard](/vendas_transacionais/vendas_transacionais_gif.gif) - GIF da dashboard do projeto demonstrando suas interações
-1. [Vendas Transacionais](/vendas_transacionais/vendas_transacionais.pbix) - Dashboard produzida ao final do projeto
+1. [Vendas Transacionais](/vendas_transacionais/vendas_transacionais_dashboard.pbix) - Dashboard produzida ao final do projeto
 <br> <br>
 
 

@@ -9,14 +9,14 @@ Palavras-chave: Power BI; dashboard; SQL; Excel; Google Sheets; Python; análise
 - [Dashboard Vendas Transacionais](\vendas_transacionais)
 
 ### Dashboard Monthly Sales
-![Gif de funcionando do Dashboard Monthly Sales](https://i.imgur.com/QSv0IFE.gif)
+![Gif de funcionamento do Dashboard Monthly Sales](https://i.imgur.com/QSv0IFE.gif)
 
-### Dashboard Vendas de Grãos
-![Gif de funcionando do Dashboard Vendas de Grãos](https://i.imgur.com/Zo2V9Qf.gif)
+
 
 ### Dashboard Vendas Transacionais
-![Gif de funcionando do Dashboard Vendas Transacionais](https://i.imgur.com/Hgf3dI4.gif)
+![Gif de funcionamento do Dashboard Vendas Transacionais](https://i.imgur.com/Hgf3dI4.gif)
 <br><br>
+
 ## Plataformas e ferramentas usadas
 
 - **Power BI**: Usado como editor de dashboard.
@@ -25,6 +25,9 @@ Palavras-chave: Power BI; dashboard; SQL; Excel; Google Sheets; Python; análise
 - **Google Colab**: Usado para escrever notebooks de Python.
 - **Excel**: Usado para leitura inicial de tabelas.
 - **Google Sheets**: Usado para leitura inicial de tabelas.
+
+### Dashboard Vendas de Grãos
+![Gif de funcionamento do Dashboard Vendas de Grãos](https://i.imgur.com/Zo2V9Qf.gif)
 
 
 ## Arquivos do projeto

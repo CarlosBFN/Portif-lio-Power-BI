@@ -1,15 +1,25 @@
-# Portifólio Power BI
+# Portifólio Power BI 📊
 
 Este projeto contém projetos de dashboards em Power BI que fiz para análise e apresentação de dados de empresas reais. Cada projeto contém bases diferentes e tratamentos variados, fazendo uso de SQL, Python, Excel ou Google Sheets.
 
 Palavras-chave: Power BI; dashboard; SQL; Excel; Google Sheets; Python; análise
 
+- [Dashboard Monthly Sales](\sales_report)
+- [Dashboard Vendas de Grãos](\vendas_de_graos)
+- [Dashboard Vendas Transacionais](\vendas_transacionais)
 
+### Dashboard Monthly Sales
+![Gif que exemplifica o funcionando do Dashboard Monthly Sales](https://i.imgur.com/QSv0IFE.gif)
+### Dashboard Vendas de Grãos
+![Gif que exemplifica o funcionando do Dashboard Vendas de Grãos](https://i.imgur.com/Zo2V9Qf.gif)
+### Dashboard Vendas Transacionais
+![Gif que exemplifica o funcionando do Dashboard Vendas Transacionais](https://i.imgur.com/Hgf3dI4.gif)
+<br><br>
 ## Plataformas e ferramentas usadas
 
 - **Power BI**: Usado como editor de dashboard.
-- **SQLite Online**: Usada para auxiliar com a criação de arquivos '.db'. Pode também ser usada como ferramenta alternativa para executar queries SQL diretamente no navegador.
-- **VSCode**: Usado para escrever queries e notebooks de Python.
+- **VSCode**: Usado para escrever notebooks de Python.
+- **Jupyter**: Extensão usada no VSCode para desenvolvimento de notebooks de Python.
 - **Google Colab**: Usado para escrever notebooks de Python.
 - **Excel**: Usado para leitura inicial de tabelas.
 - **Google Sheets**: Usado para leitura inicial de tabelas.
@@ -19,83 +29,73 @@ Palavras-chave: Power BI; dashboard; SQL; Excel; Google Sheets; Python; análise
 
 1. README.md - Arquivo de texto que documenta o projeto
 <br><br>
-
-2. [Base 1](data/base_1_escola.db)   - Base de dados simulada de registros escolares
-3. [Exercício 1](exercicio_1(base_1_escola).sql) - Queries de resolução dos exercícios com a **Base 1**
+    **Monthly Sales**
+1. [Base de dados 2013-2014](monthly_sales/data/processed/Base_de_dados_2013_2014.csv) - Base de vendas de dos anos de 2013 e 2014 em formato de tabela
+1. [Base de dados 2015-2016](monthly_sales/data/processed/Base_de_dados_2015_2016.csv) - Base de vendas de dos anos de 2013 e 2014 em formato de tabela
+1. [Base de dados 2013-2014](monthly_sales/data/processed/Base_de_dados_2013_2014.csv) - Base de vendas de dos anos de 2013 e 2014 em formato csv
+1. [Base de dados 2015-2016](monthly_sales/data/processed/Base_de_dados_2015_2016.csv) - Base de vendas de dos anos de 2013 e 2014 em formato csv
+1. [Normatização de Dados](monthly_sales/notebooks/normatizacao_dados.ipynb) - Notebook de Python para normatização das bases do projeto
+1. [Print da dashboard](monthly_sales/monthly_sales_print.jpg) - Print em PDF da dashboard do projeto
+1. [GIF da dashboard](monthly_sales/monthly_sales_gif.gif) - GIF da dashboard do projeto demonstrando suas interações
+1. [Monthly Sales](monthly_sales/monthly_sales.pbix) - Dashboard produzida ao final do projeto
+<br> <br>
+    **Venda de Grãos**
+1. [Base clientes](vendas_de_graos\data\raw\clientes.csv) - Base de clientes em formato csv
+1. [Base compras](vendas_de_graos\data\raw\compras.csv) - Base de compras em formato csv
+1. [Print da dashboard](vendas_de_graos\vendas_de_graos_print.pdf) - Print em PDF da dashboard do projeto
+1. [GIF da dashboard](vendas_de_graos\vendas_de_graos_gif.gif) - GIF da dashboard do projeto demonstrando suas interações
+1. [Venda de Grãos](vendas_de_graos\vendas_de_graos.pbix) - Dashboard produzida ao final do projeto
+<br> <br>
+    **Vendas Transacionais**
+1. [Base de metas](vendas_transacionais\data\raw\metas.xlsx) - Base de metas em formato de tabela
+1. [Base de resultados](vendas_transacionais\data\raw\resultados.xlsx) - Base de resultados em formato de tabela
+1. [Base de vendedores](vendas_transacionais\data\raw\vendedores.xlsx) - Base de vendedores em formato de tabela
+1. [Base de vendedores limpa](vendas_transacionais\data\processed\vendedores_limpa.xlsx) - Base de metas após limpezas iniciais em formato de tabela
+1. [Resultado da Etapa 1 - Metas de vendas](vendas_transacionais\data\processed\etapa_1_metas_vendas.xlsx) - Tabela resultante da Etapa 1, vincula as bases de metas e vendedores
+1. [Resultado da Etapa 2 - Metas x Resultados](vendas_transacionais\data\processed\etapa_2_metas_resultados.xlsx) - Tabela resultante da Etapa 2, vincula o resultado da Etapa 1 com a base de resultados
+1. [Resultado da Etapa 4 - Orçamento do próximo período](vendas_transacionais\data\processed\etapa_4_orcamento_novembro.xlsx) - Tabela resultante da Etapa 4 (não há tabela resultante da Etapa 3), registra o orçado para o próximo período
+1. [Notebook Metas de vendas](vendas_transacionais/notebooks/etapa_1_metas_vendas.ipynb) - Notebook de Python para tratamento das bases de metas e vendedores e desenvolvimento da Etapa 1
+1. [Notebook Metas x Resultados](vendas_transacionais/notebooks/etapa_2_metas_resultados.ipynb) - Notebook de Python para tratamento da base de resultados e desenvolvimento da Etapa 2
+1. [Etapas do projeto](vendas_transacionais/vendas_transacionais_etapas.pdf) - Explicação das etapas do projeto em PDF
+1. [Print da dashboard](vendas_transacionais/vendas_transacionais_print.pdf) - Print em PDF da dashboard do projeto
+1. [GIF da dashboard](vendas_transacionais/vendas_transacionais_gif.gif) - GIF da dashboard do projeto demonstrando suas interações
+1. [Vendas Transacionais](vendas_transacionais/vendas_transacionais.pbix) - Dashboard produzida ao final do projeto
 <br> <br>
 
-5. [Base 2](data/base_2_empresa.db)  - Base de dados simulada de registros de uma empresa
-6. [Base 2 - Criação de tabelas](data/base_2_empresa_(criacao_das_tabelas).sql)  - Arquivo para criação da **Base 2**
-7. [Base 2 - Preenchimento das tabelas 1](data/base_2_empresa_(preenchimento_das_tabelas_1).sql) - Query para preenchimento da **Base 2**
-8. [Base 2 - Preenchimento das tabelas 2](data/base_2_empresa_(preenchimento_das_tabelas_2_(itens_de_pedido)).csv)    - Arquivo para preenchimento da **Base 2**
-9. [Base 2 - Preenchimento das tabelas 3](data/base_2_empresa_(preenchimento_das_tabelas_3_(pedidos)).csv)    - Arquivo para preenchimento da **Base 2**
-10. [Exercício 2](exercicio_2(base_2_empresa).sql)   - Queries de resolução dos exercícios com **Base 2**
 
 ### Estrutura do projeto
 ```
 Portifólio Power BI/
 │
-├──Sales Report (ago23)
-│   ├──data/                                        # Pasta de dados
-│       ├── processed/                              # Dados brutos, como foram obtidos
-│       └── raw/                                    # Dados processados
+├── sales_report/
+│   ├── data/                                       # Pasta de dados
+│   │   └── processed/                              # Pasta de dados processados
+│   │
+│   ├── notebooks/                                  # Pasta de notebooks python
+│   │
+│   ├── monthly_sales_print.pdf                     # Print em PDF da dashboard
+│   ├── monthly_sales_gif.jpg                       # GIF da dashboard
+│   └── monthly_sales.pbix                          # Dashboard do projeto
 │
-├── exercicio_1_alura_(base_1_escola).sql       # Consulta SQL
-├── exercicio_2_alura_(base_2_empresa).sql      # Consulta SQL
-└── README.md                                   # Arquivo de documentação principal
+├── sales_report/
+│   ├── data/                                       # Pasta de dados
+│   │   └── raw/                                    # Pasta de dados brutos, como foram obtidos
+│   │
+│   ├── vendas_de_graos_print.pdf                   # Print em PDF da dashboard
+│   ├── vendas_de_graos_gif.jpg                     # GIF da dashboard
+│   └── vendas_de_graos.pbix                        # Dashboard do projeto
+│
+├── vendas_transacionais/
+│   ├── data/                                       # Pasta de dados
+│   │   ├── processed/                              # Pasta de dados processados
+│   │   └── raw/                                    # Pasta de dados brutos, como foram obtidos
+│   │
+│   ├──notebooks/                                   # Pasta de notebooks python
+│   │
+│   ├── vendas_transacionais_etapas.pdf             # Print em PDF da dashboard
+│   ├── vendas_transacionais_print.pdf              # Print em PDF da dashboard
+│   ├── vendas_transacionais_gif.jpg                # GIF da dashboard
+│   └── vendas_transacionais.pbix                   # Dashboard do projeto
+│
+└── README.md                                       # Arquivo de documentação principal
 ```
-
-### Como usar os arquivos
-
-1. a) Baixe os bancos de dados (.db) da pasta `data/processed` e abra-os usando o SQLite no VSCode ou em outra ferramenta de sua escolha. b) Ou baixe os arquivos de criação das bases da pasta `data/raw` e as recrie. 
-
-2. Abra os arquivos de query (.sql) e execute as consultas no banco de dados correspondente.
-
-## Questões - Exercício 1
-_Objetivo: Praticar ordenação de registros com ORDER BY, agrupamento com GROUP BY, diferentes formas de filtragem usando com WHERE e HAVING, tranformações de texto com SUBSTR e "||" , operações com datas, validações e tranformações com CASE ,particionamento de consulta com WITH e interaçõa entre diferentes tabelas com LEFT JOIN._
-
-1. Selecione os primeiros 5 registros da tabela clientes (Alunos), ordenando-os pelo nome em ordem crescente.
-
-2. Encontre todos os produtos na tabela produtos (Disciplinas) que não têm uma descrição associada (suponha que a coluna de descrição possa ser nula).
-3. iste os funcionários (Professores) cujo nome começa com 'A' e termina com 's' na tabela funcionarios.
-4. Exiba o departamento (disciplina) e a média salarial dos funcionários (média de notas dos alunos nas disciplinas) em cada departamento na tabela funcionarios, agrupando por departamento, apenas para os departamentos cuja média salarial é superior a $5000 (5,0).
-5. Selecione todos os clientes da tabela clientes (alunos) e concatene o primeiro e o último nome, além de calcular o comprimento total do nome completo.
-6. Para cada venda (nota) na tabela vendas, exiba o ID da venda, a data da venda e a diferença em dias entre a data da venda e a data atual.
-7. Selecione todos os itens da tabela pedidos (notas) e arredonde o preço total para o número inteiro mais próximo.
-8. Converta a coluna data_string da tabela eventos (avaliações), que está em formato de texto (YYYY-MM-DD), para o tipo de data e selecione todos os eventos após '2023-01-01' ('2023-08-01').
-9. Na tabela avaliações (Notas), classifique cada avaliação como 'Boa', 'Média', ou 'Ruim' com base na pontuação: 1-3 para 'Ruim', 4-7 para 'Média', e 8-10 para 'Boa'.
-10. Retornar a média de Notas dos Alunos em história.
-11. Retornar as informações dos alunos cujo Nome começa com 'A'.
-12. Buscar apenas os alunos que fazem aniversário em fevereiro.
-13. Realizar uma que calcula a idade dos Alunos.
-14. Retornar se o aluno está ou não aprovado. Aluno é considerado aprovado se a sua nota foi igual ou maior que 6.
-15. Retornar o nome do aluno que obteve a maior nota em cada disciplina.
-16. Buscar o nome do professor e a turma que ele é orientador
-17. Listar os Alunos e as disciplinas em que estão matriculados
-
-## Questões - Exercício 2
-_Objetivo: Praticar mesclagem de tabelas com UNION ALL, mais tranformaçãoes de texto com SUBSTR e "||" , outros tipos de JOIN, consultas encapsuladas dentro de JOIN, criação de VIEW e TRIGGER._
-
-1. Retornar tabela com todos os fornecedores e colaboradores e seus endereços
-
-2. Identificar qual ou quais clientes fizeram compras às 9:30 em 22 de janeiro de 2023
-3. Identificar qual ou quais clientes fizeram compras em janeiro
-4. Quais produtos tem preços acima da média de preço dos produtos (duas soluções)
-5. Identificar quais clientes fizeram algum pedido
-6. Identificar itens sem pedidos no mês de outubro
-7. Retorne o nome dos clientes que ainda não fizeram pedidos
-8. Retorne o valor total dos pedidos
-9. Construir um modelo de nota para as vendas 
-10. Retorne o nome de cada cliente e o valor total dos pedidos que cada um deles comprou
-11. Com o auxílio de uma view faça uma query que retorne os dados de pedidos que estão em andamento
-12. Contruir um TRIGGER para que o faturamento diário esteja sempre atualizado
-13. Atualizar dados já existentes na base (novo preço para a lasanha e nova descrição para o croisssant de amêndoas)
-14. Remover dados existentes (colaborador Pedro Almeida	desligado, cliente Paulo Sousa que pediu exclusão dos dados)
-15. Traga todos os dados da cliente Maria Silva.
-16. Retorne todos os produtos onde o preço seja maior que 10 e menor que 15.
-17. Busque o nome e cargo dos colaboradores que foram contratados entre 2022-01-01 e 2022-06-31.
-18. Recupere o nome do cliente que fez o primeiro pedido.
-19. Liste os produtos que nunca foram pedidos.
-20. Recupere os nomes dos produtos que estão em menos de 15 pedidos.
-21. Liste os produtos e o ID do pedido que foram realizados pelo cliente "Pedro Alves" ou pela cliente "Ana Rodrigues".
-22. Recupere o nome e o ID do cliente que mais comprou em valor.

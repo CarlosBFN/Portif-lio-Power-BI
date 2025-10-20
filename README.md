@@ -87,11 +87,11 @@ Palavras-chave: Power BI; dashboard; Excel; Google Sheets; Python; análise
 1. [Base consultas](/atendimento_plano_saude/data/raw/consultas_1.csv) - Base de consultas dos planos em formato csv
 1. [Base médicos](/atendimento_plano_saude/data/raw/medicos_1.csv) - Base de médicos que atenderam aos planos em formato csv
 1. [Base pacientes](/atendimento_plano_saude/data/raw/pacientes_1.csv) - Base de pacientes que foram atendidos pelos planos em formato csv
-1. [Base pacientes](/atendimento_plano_saude/data/processed/consultas_2.csv) - Base de consultas dos planos com novas colunas e normatizações em formato csv 
-1. [Base pacientes](/atendimento_plano_saude/data/processed/ajustes.db) - Base de consultas dos planos com novas colunas e normatizações em formato db
-1. [Base pacientes](/atendimento_plano_saude/code/to_csv.py) - Código em Python para transformar o arquivo ajustes.db no arquivo consultas_2.csv
-1. [Base pacientes](/atendimento_plano_saude/queries/ajustes-criacao_tabela.sql) - Query usada para transformar o arquivo consultas_1.csv em ajustes.db, usando SQL
-1. [Base pacientes](/atendimento_plano_saude/queries/ajustes.sql) - Query usada para transformar fazer as novas colunas e normatizações do arquivo consultas_1.csv, usando SQL
+1. [Base consultas ajustada](/atendimento_plano_saude/data/processed/consultas_2.csv) - Base de consultas dos planos com novas colunas e normatizações em formato csv 
+1. [Base SQL das consultas ajustada](/atendimento_plano_saude/data/processed/ajustes.db) - Base de consultas dos planos com novas colunas e normatizações em formato db
+1. [Código para mudar formato do arquivo](/atendimento_plano_saude/code/to_csv.py) - Código em Python para transformar o arquivo ajustes.db no arquivo consultas_2.csv
+1. [Query de criação da base de consultas ajustada](/atendimento_plano_saude/queries/ajustes-criacao_tabela.sql) - Query usada para transformar o arquivo consultas_1.csv em ajustes.db, usando SQL
+1. [Query de execução da base de consultas ajustada](/atendimento_plano_saude/queries/ajustes.sql) - Query usada para transformar fazer as novas colunas e normatizações do arquivo consultas_1.csv, usando SQL
 1. [Print da dashboard](/atendimento_plano_saude/atendimento_plano_saude_print.pdf) - Print em PDF da dashboard do projeto
 1. [GIF da dashboard](/atendimento_plano_saude/atendimento_plano_saude_gif.gif) - GIF da dashboard do projeto demonstrando suas interações
 1. [Venda de Grãos](/atendimento_plano_saude/atendimento_plano_saude_dashboard.pbix) - Dashboard produzida ao final do projeto

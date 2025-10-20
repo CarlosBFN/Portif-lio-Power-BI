@@ -90,8 +90,8 @@ Palavras-chave: Power BI; dashboard; Excel; Google Sheets; Python; análise
 1. [Base pacientes](/atendimento_plano_saude/data/processed/consultas_2.csv) - Base de consultas dos planos com novas colunas e normatizações em formato csv 
 1. [Base pacientes](/atendimento_plano_saude/data/processed/ajustes.db) - Base de consultas dos planos com novas colunas e normatizações em formato db
 1. [Base pacientes](/atendimento_plano_saude/code/to_csv.py) - Código em Python para transformar o arquivo ajustes.db no arquivo consultas_2.csv
-1. [Base pacientes](/atendimento_plano_saude/queries/ajustes-criacao_tabela.sql) - Query usada para transformar o arquivo consultas_1.csv em ajustes.db, usadno SQL
-1. [Base pacientes](/atendimento_plano_saude/queries/ajustes.sql) - Query usada para transformar fazer as novas colunas e normatizações do arquivo consultas_1.csv, usadno SQL
+1. [Base pacientes](/atendimento_plano_saude/queries/ajustes-criacao_tabela.sql) - Query usada para transformar o arquivo consultas_1.csv em ajustes.db, usando SQL
+1. [Base pacientes](/atendimento_plano_saude/queries/ajustes.sql) - Query usada para transformar fazer as novas colunas e normatizações do arquivo consultas_1.csv, usando SQL
 1. [Print da dashboard](/atendimento_plano_saude/atendimento_plano_saude_print.pdf) - Print em PDF da dashboard do projeto
 1. [GIF da dashboard](/atendimento_plano_saude/atendimento_plano_saude_gif.gif) - GIF da dashboard do projeto demonstrando suas interações
 1. [Venda de Grãos](/atendimento_plano_saude/atendimento_plano_saude_dashboard.pbix) - Dashboard produzida ao final do projeto

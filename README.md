@@ -25,12 +25,20 @@ Palavras-chave: Power BI; dashboard; Excel; Google Sheets; Python; análise
 ![Gif de funcionando do Dashboard Vendas Transacionais](/vendas_transacionais/vendas_transacionais_gif.gif)
 <br><br>
 
+### Dashboard Atendimento de Plano de Saúde
+- [Pasta do projeto](/atendimento_plano_saude/)
+- [Arquivo da dashboard](/atendimento_plano_saude/atendimento_plano_saude_dashboard.pbix)
+
+![Gif de funcionando do Dashboard Atendimento de Plano de Saúde](/atendimento_plano_saude/atendimento_plano_saude_gif.gif)
+<br><br>
+
 
 ## Plataformas e ferramentas usadas
 
 - **Power BI**: Usado como editor de dashboard.
-- **VSCode**: Usado para escrever notebooks de Python.
-- **Jupyter**: Extensão usada no VSCode para desenvolvimento de notebooks de Python.
+- **VSCode**: Usado para compilar códigos usados nos projetos.
+- **Python**: Usado para escrever códigos de Python para trocar tipos de arquivos.
+- **Jupyter**: Extensão usada no VSCode para desenvolvimento de notebooks de Python para exploração e limpeza inicial das bases.
 - **Google Colab**: Usado para escrever notebooks de Python.
 - **Excel**: Usado para leitura inicial de tabelas.
 - **Google Sheets**: Usado para leitura inicial de tabelas.
@@ -75,6 +83,19 @@ Palavras-chave: Power BI; dashboard; Excel; Google Sheets; Python; análise
 1. [Vendas Transacionais](/vendas_transacionais/vendas_transacionais_dashboard.pbix) - Dashboard produzida ao final do projeto
 <br> <br>
 
+    **Atendimento de Plano de Saúde**
+1. [Base consultas](/atendimento_plano_saude/data/raw/consultas_1.csv) - Base de consultas dos planos em formato csv
+1. [Base médicos](/atendimento_plano_saude/data/raw/medicos_1.csv) - Base de médicos que atenderam aos planos em formato csv
+1. [Base pacientes](/atendimento_plano_saude/data/raw/pacientes_1.csv) - Base de pacientes que foram atendidos pelos planos em formato csv
+1. [Base pacientes](/atendimento_plano_saude/data/processed/consultas_2.csv) - Base de consultas dos planos com novas colunas e normatizações em formato csv 
+1. [Base pacientes](/atendimento_plano_saude/data/processed/ajustes.db) - Base de consultas dos planos com novas colunas e normatizações em formato db
+1. [Base pacientes](/atendimento_plano_saude/code/to_csv.py) - Código em Python para transformar o arquivo ajustes.db no arquivo consultas_2.csv
+1. [Base pacientes](/atendimento_plano_saude/queries/ajustes-criacao_tabela.sql) - Query usada para transformar o arquivo consultas_1.csv em ajustes.db, usadno SQL
+1. [Base pacientes](/atendimento_plano_saude/queries/ajustes.sql) - Query usada para transformar fazer as novas colunas e normatizações do arquivo consultas_1.csv, usadno SQL
+1. [Print da dashboard](/atendimento_plano_saude/atendimento_plano_saude_print.pdf) - Print em PDF da dashboard do projeto
+1. [GIF da dashboard](/atendimento_plano_saude/atendimento_plano_saude_gif.gif) - GIF da dashboard do projeto demonstrando suas interações
+1. [Venda de Grãos](/atendimento_plano_saude/atendimento_plano_saude_dashboard.pbix) - Dashboard produzida ao final do projeto
+<br> <br>
 
 ### Estrutura do projeto
 ```
@@ -88,7 +109,7 @@ Portifólio Power BI/
 │   │
 │   ├── monthly_sales_print.pdf                     # Print em PDF da dashboard
 │   ├── monthly_sales_gif.jpg                       # GIF da dashboard
-│   └── monthly_sales.pbix                          # Dashboard do projeto
+│   └── monthly_sales_dashboard.pbix                # Dashboard do projeto
 │
 ├── sales_report/
 │   ├── data/                                       # Pasta de dados
@@ -96,19 +117,32 @@ Portifólio Power BI/
 │   │
 │   ├── vendas_de_graos_print.pdf                   # Print em PDF da dashboard
 │   ├── vendas_de_graos_gif.jpg                     # GIF da dashboard
-│   └── vendas_de_graos.pbix                        # Dashboard do projeto
+│   └── vendas_de_graos_dashboard.pbix              # Dashboard do projeto
 │
 ├── vendas_transacionais/
 │   ├── data/                                       # Pasta de dados
 │   │   ├── processed/                              # Pasta de dados processados
 │   │   └── raw/                                    # Pasta de dados brutos, como foram obtidos
 │   │
-│   ├──notebooks/                                   # Pasta de notebooks python
+│   ├── notebooks/                                  # Pasta de notebooks python
 │   │
 │   ├── vendas_transacionais_etapas.pdf             # Print em PDF da dashboard
 │   ├── vendas_transacionais_print.pdf              # Print em PDF da dashboard
 │   ├── vendas_transacionais_gif.jpg                # GIF da dashboard
-│   └── vendas_transacionais.pbix                   # Dashboard do projeto
+│   └── vendas_transacionais_dashboard.pbix         # Dashboard do projeto
+│
+├── atendimento_plano_saude/
+│   ├── data/                                       # Pasta de dados
+│   │   ├── processed/                              # Pasta de dados processados
+│   │   └── raw/                                    # Pasta de dados brutos, como foram obtidos
+│   │
+│   ├── code/                                       # Pasta de códigos python
+│   │
+│   ├── queries/                                    # Pasta de queries SQL
+│   │
+│   ├── atendimento_plano_saude_print.pdf           # Print em PDF da dashboard
+│   ├── atendimento_plano_saude_gif.jpg             # GIF da dashboard
+│   └── atendimento_plano_saude_dashboard.pbix      # Dashboard do projeto
 │
 └── README.md                                       # Arquivo de documentação principal
 ```
